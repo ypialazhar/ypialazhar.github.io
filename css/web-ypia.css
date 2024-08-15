@@ -71,7 +71,7 @@
 }
 .sticky-navbar {
   position: sticky;
-  top: 50px; /* Adjust this value based on the height of your top bar */
+  top: 35px; /* Adjust this value based on the height of your top bar */
   z-index: 1020;
 }
 
