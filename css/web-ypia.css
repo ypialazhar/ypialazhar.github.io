@@ -1,0 +1,101 @@
+/* Dropdown Menu */
+.dropdown:hover >.dropdown-menu{
+  display: block !important;
+}
+.dropdown-submenu:hover > .dropdown-menu{
+  display: block !important;
+    left: 100%;
+    margin-top: -37px;
+}
+
+.dropdown-item{
+  /* font-size: small; /* 13px */
+}
+.dropdown-toggle::after{
+  font-size: var(--font-md);
+  margin-bottom: -2px;
+}
+.dropdown-menu li a.active{
+  color:#fff;
+}
+
+/* OWL */
+.custom-toggle-arrow{
+      font-size: 18px;
+      margin-top: 1px;
+      line-height: 12px;
+}
+
+.owl-nav button.owl-next,
+.owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+    height: 40px;
+    line-height: 50px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 0.8666666667rem;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    background-color: red;
+    color: #4f4f4f;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.owl-nav button.owl-next:hover,
+.owl-nav button.owl-prev:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.owl-nav button.owl-next {
+    color: #ffff;
+    right: 30px;
+}
+
+.owl-nav button.owl-prev {
+    color: #ffff;
+    left: 30px;
+}
+
+/* Sticky Topvar dan Navbar */
+.sticky-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+.sticky-navbar {
+  position: sticky;
+  top: 50px; /* Adjust this value based on the height of your top bar */
+  z-index: 1020;
+}
+
+/* Add WA floating button CSS */
+.wa-floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.fab-wa-icon {
+margin-top: 16px;
+}
+
+/* Icon Counter */
+.pdn-icon-counter {
+  font-size : 2.5rem;
+}
